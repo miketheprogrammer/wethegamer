@@ -3,21 +3,40 @@ $icon-font-path: 'bootstrap-sass/assets/fonts/bootstrap/';
 
 .wtg-navbar-override {
     background-color: #FFFFFF;
-    border: 0px 0px 0px 0px solid;
+    border-color: #FFFFFF;
 }
 .navbar-inverse .wtg-nav-link {
-  color: #000000
+  color: #000000;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #000000
+  color: #000000;
 }
-.app {
-  background-color: green;
-  height: 50px;
-  border: 1px solid blue;
+.navbar-inverse .wtg-nav-link:hover {
+  color: #000000;
 }
+.navbar-inverse .navbar-nav > li a:hover {
+  color: #000000;
+}
+.navbar-inverse .navbar-nav > li:hover {
+  color: #000000;
+}
+a {
+    text-decoration: none;
+    position: relative;
+}
+a:hover:after {
+    content: '';
 
-.bap {
-  background-color: red;
-  height: 25px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+
+    border-width: 0 0 1px;
+    border-style: dotted;
 }
+body {
+  font: 100 1em/3.5em 'Lato';
+  font: Ultra-Light 100 1em/1.5em 'Lato';
+  font: Ultra-Light 100 1em/1.5em 'Lato', sans-serif;;
+      }
